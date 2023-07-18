@@ -1,11 +1,7 @@
 from google.cloud import secretmanager
+import os
 
-
-CLIENT = secretmanager.SecretManagerServiceClient()
-PROJECT_ID = advancedml-saahil
-NAME = f"projects/{PROJECT_ID}/secrets/wikiSecret/versions/latest"
-response = CLIENT.access_secret_version(request={"name": NAME})
-SECRETKEY = response.payload.data.decode('UTF-8')
+SECRETKEY = os.environ.get('SECRETKEY')
 
 APP_NAME = 'mobkoiTask'
 ACCESS_TOKEN = SECRETKEY
