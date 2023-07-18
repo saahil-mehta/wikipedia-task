@@ -1,6 +1,7 @@
 from flask import Flask, request
 from functions import *
-from pandas import to_gbq
+import pandas_gbq
+import os
 
 app = Flask(__name__)
 
