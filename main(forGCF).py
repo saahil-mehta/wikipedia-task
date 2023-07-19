@@ -1,8 +1,10 @@
+import functions_framework
 from functions import *
 import pandas_gbq
 import os
 
-def main():
+@functions_framework.http
+def main(request):
     """
     Google Cloud Function HTTP trigger that extracts Wikipedia page view data 
     and uploads it to Google BigQuery.
