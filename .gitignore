@@ -2,3 +2,8 @@
 scripts/.ipynb_checkpoints/main-checkpoint.ipynb
 *.ipynb
 scripts/.DS_Store
+.DS_Store
+.DS_Store
+*.json
+*.zip
+*.pyc
