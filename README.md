@@ -2,6 +2,9 @@
 ## Representation
 ![image](https://github.com/saahil-mehta/wikipedia-task/assets/19855986/53c0fe30-c7db-41fa-b109-06ae4e53c0fb)
 
+### Cloud Arch 
+![image](https://github.com/saahil-mehta/wikipedia-task/assets/19855986/7252553d-ea91-40e1-a303-2ddbbfe610da)
+
 ## Technical Documentation
 
 ### Objective
