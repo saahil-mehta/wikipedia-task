@@ -57,7 +57,7 @@ The infrastructure is defined and managed using Terraform. The main configuratio
 
 #### GitHub Repository
 
-The code is hosted in a private GitHub repository named `interview-de-task`. Both principals have been provided with access to the repository and the Cloud platform.
+The code is hosted in a private GitHub repository named `wikipedia-task`. Both principals have been provided with access to the repository and the Cloud platform.
 
 ### Workflow
 
